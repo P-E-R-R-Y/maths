@@ -9,8 +9,12 @@ set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake ${CMAKE_MODULE_PATH})
 
 find_package(system REQUIRED)
 
+set(SOURCE_FILES
+    geometry.cpp
+)
+
 # Library
-add_library(${PROJECT_NAME} STATIC no_source.cpp)
+add_library(${PROJECT_NAME} STATIC ${SOURCE_FILES})
 
 target_link_libraries(${PROJECT_NAME} PUBLIC system)
 

@@ -1,8 +1,16 @@
-#ifndef GEOMETRY_HPP_
-    #define GEOMETRY_HPP_
+/**
+ * @file geometry.cpp
+ * @author perry chouteau (perry.chouteau@outlook.com)
+ * @brief 
+ * @version 0.1
+ * @date 2025-02-20
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 
-  #include <iostream>
-  #include "type.hpp" 
+#include "type.hpp"
+#include <cmath>
 
 using namespace type;
 
@@ -84,5 +92,3 @@ bool is_concave(__v2f_t A, __v2f_t B, __v2f_t C, bool clockwise = true) {
     //prefere to inverse clockwise rather than inverse the result of is_convex to handle the 180 degree case
     return is_convex(A, B, C, !clockwise);
 }
-
-#endif /* !MATH_HPP_ */
