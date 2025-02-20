@@ -9,6 +9,9 @@
  * 
  */
 
+#ifndef GEOMETRY_HPP_
+    #define GEOMETRY_HPP_
+
 #include "type.hpp"
 #include <cmath>
 
@@ -92,3 +95,5 @@ bool is_concave(__v2f_t A, __v2f_t B, __v2f_t C, bool clockwise = true) {
     //prefere to inverse clockwise rather than inverse the result of is_convex to handle the 180 degree case
     return is_convex(A, B, C, !clockwise);
 }
+
+#endif /* !GEOMETRY_HPP_ */
