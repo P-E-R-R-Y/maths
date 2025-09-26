@@ -10,7 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 list(PREPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
-find_package(system REQUIRED)
+find_package(System REQUIRED)
 find_package(GoogleTest REQUIRED)
 
 # ----------- sources -----------
