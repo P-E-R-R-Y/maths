@@ -12,7 +12,7 @@
 #ifndef GEOMETRY_HPP_
     #define GEOMETRY_HPP_
 
-#include "type.hpp"
+#include "Type.hpp"
 #include <cmath>
 #include <limits>
 
