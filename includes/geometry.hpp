@@ -41,7 +41,7 @@ inline bool is_convex(Vector2f A, Vector2f B, Vector2f C, bool clockwise = true)
     // 1. if it's a clockwise direction, then the cross product should be negative to be a convex angle
     // 2. if it's a counter clockwise direction, then the cross product should be positive to be a convex angle
     // 180 degree in this case is an exception, it's neither convex nor concave, but we can consider it as concave.
-    if (std::abs(cross) < epsilon<double>()) 
+    if (std::abs(cross) < epsilond) 
         return false; // straight line → neither convex nor concave
     else if (clockwise) {
         return cross < 0; // is convex 
