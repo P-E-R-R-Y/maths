@@ -1,3 +1,10 @@
+/**
+ * @file interpolation.hpp
+ *
+ * @addtogroup maths
+ * @{
+ */
+
 #include <vector>
 #include <array>
 
@@ -40,4 +47,5 @@ class Interpolate {
         }
         return result_array;
       }
-};
+};/** @} */
+

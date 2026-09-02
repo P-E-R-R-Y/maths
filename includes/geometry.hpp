@@ -7,6 +7,9 @@
  * 
  * @copyright Copyright (c) 2025
  * 
+ *
+ * @addtogroup maths
+ * @{
  */
 
 #ifndef GEOMETRY_HPP_
@@ -73,5 +76,7 @@ inline bool is_concave(Vector2f A, Vector2f B, Vector2f C, bool clockwise = true
     //prefere to inverse clockwise rather than inverse the result of is_convex to handle the 180 degree case
     return is_convex(A, B, C, !clockwise);
 }
+
+/** @} */
 
 #endif /* !GEOMETRY_HPP_ */

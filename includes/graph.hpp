@@ -21,6 +21,9 @@
  *   auto g    = Graph<Vector2f, EqV2>::fromPairs<DistV2>(pairs);
  *   auto mst  = g.mst();                  // non-mutating
  *   auto loop = g.difference(mst);        // remaining Delaunay edges → add back N for TinyKeep loops
+ *
+ * @addtogroup maths
+ * @{
  */
 
 #pragma once
@@ -274,3 +277,5 @@ private:
         }
     }
 };
+/** @} */
+
