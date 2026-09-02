@@ -1,0 +1,8 @@
+/**
+ * @defgroup maths maths
+ *
+ * @brief Geometry, graphs and interpolation.
+ *
+ * Triangulation and Delaunay, minimum spanning trees and traversals,
+ * linear and cubic interpolation.
+ */
