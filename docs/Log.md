@@ -1,12 +1,11 @@
-# maths — journal
+# maths — changelog
 
-Marqueurs : 🟢 ajout · 🔴 rupture · 🔵 correctif · ⚪ interne ou doc · 🟡 propose
-dans le plan, code non ecrit.
+Markers: 🟢 added · 🔴 breaking · 🔵 fix · ⚪ internal or docs · 🟡 proposed
+in the plan, no code written yet.
 
 ## v1.0.0
 
 - 🟢 `geometry`, `graph`, `interpolation`
-- ⚪ le mieux eprouve des outils : 19 tests pour 413 lignes
-- 🔵 `docs.yml` commite : il existait sur le disque sans etre suivi par
-  git, donc n'avait jamais tourne — d'ou l'absence de `gh-pages` avant
-  cette version
+- ⚪ the best-tested of the utilities: 19 tests for 413 lines
+- 🔵 `docs.yml` committed: it existed on disk but was never tracked by
+  git, so it had never run — hence no `gh-pages` before this version
