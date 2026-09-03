@@ -1,5 +1,5 @@
 set(name system)
-set(tag main)
+set(tag v1.0.0)
 
 include(FetchContent)
 # Check if it's already fetched
